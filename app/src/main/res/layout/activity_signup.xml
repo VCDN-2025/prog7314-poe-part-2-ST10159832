@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/wordtopia_logo"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="App Logo" />
+
+        <EditText
+            android:id="@+id/edtSignupEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtSignupPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtSignupConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="SIGN UP"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_button" />
+
+        <TextView
+            android:id="@+id/txtGoToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Login"
+            android:textSize="14sp"
+            android:textColor="#FF4081"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

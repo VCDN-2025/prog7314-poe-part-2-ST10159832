@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/gameoverImage"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/gameover_image"
+        android:contentDescription="Game Over Image"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+
+    <TextView
+        android:id="@+id/txtWordScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORD: WALL    SCORE: 67 POINTS"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="PLAY AGAIN"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="HOME"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button" />
+</LinearLayout>

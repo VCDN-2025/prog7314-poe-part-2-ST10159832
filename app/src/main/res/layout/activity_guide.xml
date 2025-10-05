@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Play Wordtopia"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
+
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:src="@drawable/hangmanpole"
+            android:contentDescription="Gallows Example"
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitCenter" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Objective"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guess the hidden word by selecting letters. Each correct letter reveals part of the word. You win when you complete the entire word before running out of attempts."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Section 2: How to Play -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" How to Play"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Tap letters to guess them.\n\n2️. Correct guesses appear in the word.\n\n3. Wrong guesses draw part of the hangman.\n\n4️. You can make up to 6 wrong guesses before the game ends."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Letter Keyboard"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A B C D E F G H I J K L M\nN O P Q R S T U V W X Y Z"
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="20dp"
+            android:gravity="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡  Tips"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Start with common vowels like A, E, I.\n• Look at word length for clues.\n• Use your hint button wisely — you only get one!"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+
+        <Button
+            android:id="@+id/btnBackGuide"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="BACK"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_button" />
+
+    </LinearLayout>
+</ScrollView>

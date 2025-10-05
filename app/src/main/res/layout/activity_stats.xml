@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:text="PLAYER STATS"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txtGames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Games Played: 15"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtWins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wins: 5"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtLosses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Losses: 10"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="RESET STATS"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button" />
+</LinearLayout>
