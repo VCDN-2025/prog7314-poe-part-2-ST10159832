@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "305153713749",
+    "project_id": "wordtopia2",
+    "storage_bucket": "wordtopia2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305153713749:android:f2df3f8bf54efb9c50d6dc",
+        "android_client_info": {
+          "package_name": "student.projects.wordtopia2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305153713749-qn4nrmmq8ru0rkiidf9dku7dch48b251.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "student.projects.wordtopia2",
+            "certificate_hash": "1e4e937604640b414959998066505ace487a19ca"
+          }
+        },
+        {
+          "client_id": "305153713749-oai02qot9ijnkm4g1ecf5t8r5o6hd7sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGOCCgWil1JQdxrxEKWpUgpYhUQfYevho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305153713749-oai02qot9ijnkm4g1ecf5t8r5o6hd7sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

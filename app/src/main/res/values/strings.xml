@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Wordtopia2</string>
+
+    <string name="default_web_client_id">305153713749-oai02qot9ijnkm4g1ecf5t8r5o6hd7sh.apps.googleusercontent.com</string>
+
 </resources>

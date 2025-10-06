@@ -26,9 +26,9 @@ class SettingsActivity : AppCompatActivity() {
 
         binding.radioGroupTextSize.setOnCheckedChangeListener { _, checkedId ->
             val size = when (checkedId) {
-                R.id.radioSmall -> "Small"
-                R.id.radioMedium -> "Medium"
-                R.id.radioLarge -> "Large"
+               // R.id.radioSmall -> "Small"
+                //R.id.radioMedium -> "Medium"
+                //R.id.radioLarge -> "Large"
                 else -> "Medium"
             }
             Toast.makeText(this, "Text size: $size", Toast.LENGTH_SHORT).show()

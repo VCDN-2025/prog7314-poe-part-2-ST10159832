@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class SplashActivity : AppCompatActivity() {
@@ -12,10 +13,20 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
 
-        Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, MainActivity::class.java)
+        // Find the buttons
+        val loginBtn: Button = findViewById(R.id.btnLoginSplash)
+        val signupBtn: Button = findViewById(R.id.btnSignUpSplash)
+
+        // Navigate to LoginActivity
+        loginBtn.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
-            finish()
-        }, 2000)
+        }
+
+        // Navigate to SignUpActivity
+        signupBtn.setOnClickListener {
+            val intent = Intent(this, SignUpActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
