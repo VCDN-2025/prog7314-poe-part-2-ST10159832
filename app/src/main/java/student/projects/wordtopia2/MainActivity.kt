@@ -19,18 +19,18 @@ class MainActivity : BaseActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // ✅ Check if a username is already saved
+
         val sharedPrefs = getSharedPreferences("UserPrefs", Context.MODE_PRIVATE)
         val savedUsername = sharedPrefs.getString("username", null)
 
         if (savedUsername == null) {
-            // 🚀 Ask user for a username if none is saved
+
             showUsernameDialog(sharedPrefs)
         } else {
             Toast.makeText(this, "Welcome back, $savedUsername!", Toast.LENGTH_SHORT).show()
         }
 
-        // 🎮 Navigation buttons
+
         binding.btnSettings.setOnClickListener {
             startActivity(Intent(this, SettingsActivity::class.java))
         }
@@ -48,7 +48,7 @@ class MainActivity : BaseActivity() {
         }
     }
 
-    // 🧩 Show dialog to enter username
+
     private fun showUsernameDialog(sharedPrefs: android.content.SharedPreferences) {
         val input = EditText(this).apply {
             hint = "Enter your username"

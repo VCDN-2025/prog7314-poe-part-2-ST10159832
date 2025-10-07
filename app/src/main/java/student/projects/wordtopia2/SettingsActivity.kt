@@ -14,6 +14,9 @@ import student.projects.wordtopia2.databinding.ActivitySettingsBinding
 import student.projects.wordtopia2.utils.ThemeManager
 import java.util.Locale
 
+//https://www.youtube.com/watch?v=94gvVpGsap8
+//https://www.youtube.com/watch?v=ER3GVyCieJQ
+
 class SettingsActivity : BaseActivity() {
     private lateinit var binding: ActivitySettingsBinding
 
@@ -25,7 +28,7 @@ class SettingsActivity : BaseActivity() {
 
         val prefs = getSharedPreferences("AppSettings", Context.MODE_PRIVATE)
 
-        // --- Language Spinner ---
+
         val languages = listOf("English", "Zulu", "Afrikaans", "French")
         val languageCodes = mapOf(
             "English" to "en",
@@ -61,17 +64,17 @@ class SettingsActivity : BaseActivity() {
             override fun onNothingSelected(parent: AdapterView<*>) {}
         }
 
-        // --- Dark Mode Switch ---
+
         val isDark = prefs.getBoolean("dark_mode", false)
         binding.switchTheme.isChecked = isDark
 
         binding.switchTheme.setOnCheckedChangeListener { _, isChecked ->
             prefs.edit().putBoolean("dark_mode", isChecked).apply()
             ThemeManager.applyTheme(this)
-            recreate() // reload activity to apply changes
+            recreate()
         }
 
-        // --- Text Size Radio Buttons ---
+
         val savedSize = prefs.getString("text_size", "Medium")
         when (savedSize) {
             "Small" -> binding.radioSmall.isChecked = true
@@ -93,7 +96,7 @@ class SettingsActivity : BaseActivity() {
             Toast.makeText(this, "Text size: $size", Toast.LENGTH_SHORT).show()
         }
 
-        // --- Back Button ---
+
         binding.btnBackSettings.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
@@ -102,14 +105,14 @@ class SettingsActivity : BaseActivity() {
         }
 
         binding.btnLogout.setOnClickListener {
-            // Sign out the user from Firebase
+
             FirebaseAuth.getInstance().signOut()
 
-            // Go back to LoginActivity (or wherever your login screen is)
+
             val intent = Intent(this, LoginActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
-            finish() // close SettingsActivity
+            finish()
         }
     }
 }

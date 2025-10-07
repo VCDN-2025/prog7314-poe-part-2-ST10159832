@@ -15,6 +15,7 @@ import student.projects.wordtopia2.databinding.ActivityGameBinding
 import student.projects.wordtopia2.utils.ThemeManager
 import kotlin.random.Random
 
+//https://www.youtube.com/watch?v=0RkDUpenTCo&t=305s
 class GameActivity : BaseActivity() {
     private lateinit var binding: ActivityGameBinding
 
@@ -34,7 +35,7 @@ class GameActivity : BaseActivity() {
         val prefs = getSharedPreferences("AppSettings", Context.MODE_PRIVATE)
         val language = prefs.getString("language", "en")
 
-        // 🧠 Choose word list based on selected language
+
         val wordList = when (language) {
             "zu" -> listOf("UDINGA", "ISIKOLE", "UMSEBENZI", "INJA", "IKHAYA") // Zulu words
             "af" -> listOf("MUUR", "REKENAAR", "TAAL", "STADIG", "ONTWIKKEL") // Afrikaans words
@@ -43,7 +44,7 @@ class GameActivity : BaseActivity() {
                 "DEVELOPER", "LANGUAGE", "MOBILE", "STUDIO", "BUTTON")
         }
 
-        // ✅ Randomly select a word
+
         selectedWord = wordList.random().uppercase()
         guessed = CharArray(selectedWord.length) { '_' }
 
@@ -54,7 +55,7 @@ class GameActivity : BaseActivity() {
         updateWordDisplay()
     }
 
-    // 🧩 Create keyboard dynamically (A–Z)
+
     private fun setupKeyboard() {
         val letters = ('A'..'Z')
         for (c in letters) {
@@ -66,7 +67,7 @@ class GameActivity : BaseActivity() {
         }
     }
 
-    // 🎯 Handle player guesses
+
     private fun handleGuess(letter: Char, btn: Button) {
         btn.isEnabled = false
 
@@ -88,7 +89,7 @@ class GameActivity : BaseActivity() {
             val resId = resources.getIdentifier("hangman_$mistakes", "drawable", packageName)
             binding.imgHangman.setImageResource(resId)
 
-            // ❌ Lose condition
+
             if (mistakes == maxMistakes) {
                 calculateScore()
                 updateGameStats(false)
@@ -98,18 +99,18 @@ class GameActivity : BaseActivity() {
         }
     }
 
-    // 📝 Update displayed word
+
     private fun updateWordDisplay() {
         binding.txtWord.text = guessed.joinToString(" ")
     }
 
-    // 🧮 Score calculation
+
     private fun calculateScore() {
         score = (selectedWord.length * 10) - (mistakes * 5)
         if (score < 0) score = 0
     }
 
-    // 🚪 Go to result screen
+
     private fun goToResult(won: Boolean) {
         val intent = Intent(this, ResultActivity::class.java)
         intent.putExtra("won", won)
@@ -119,7 +120,7 @@ class GameActivity : BaseActivity() {
         finish()
     }
 
-    // 📊 Track stats locally
+
     private fun updateGameStats(isWin: Boolean) {
         val prefs = getSharedPreferences("UserStats", Context.MODE_PRIVATE)
         val games = prefs.getInt("games", 0) + 1
@@ -133,7 +134,7 @@ class GameActivity : BaseActivity() {
             .apply()
     }
 
-    // 🌐 Submit score to backend API
+
     private fun submitScoreToApi() {
         val prefs = getSharedPreferences("UserPrefs", Context.MODE_PRIVATE)
         val username = prefs.getString("username", "Guest") ?: "Guest"

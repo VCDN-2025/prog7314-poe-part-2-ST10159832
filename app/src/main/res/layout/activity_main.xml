@@ -19,7 +19,7 @@
         android:padding="4dp"
         app:tint="@color/textColor" />
 
-    <!-- Center content -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

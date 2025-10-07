@@ -15,6 +15,8 @@ import com.google.firebase.auth.GoogleAuthProvider
 import student.projects.wordtopia2.databinding.ActivityLoginBinding
 import student.projects.wordtopia2.utils.ThemeManager
 
+
+//https://www.youtube.com/watch?v=H_maapn4Q3Q
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
     private lateinit var auth: FirebaseAuth

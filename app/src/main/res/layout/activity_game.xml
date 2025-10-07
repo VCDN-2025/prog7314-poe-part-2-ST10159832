@@ -8,7 +8,7 @@
     android:gravity="center_horizontal"
     android:padding="16dp">
 
-    <!-- Hangman Image -->
+
     <ImageView
         android:id="@+id/imgHangman"
         android:layout_width="180dp"
@@ -18,7 +18,7 @@
         android:contentDescription="Hangman"
         app:tint="@color/textColor" />
 
-    <!-- Display current word progress -->
+
     <TextView
         android:id="@+id/txtWord"
         android:layout_width="wrap_content"
@@ -30,7 +30,7 @@
         android:fontFamily="monospace"
         android:textColor="@color/textColor" />
 
-    <!-- Letter grid for A–Z buttons -->
+
     <GridLayout
         android:id="@+id/letterGrid"
         android:layout_width="match_parent"

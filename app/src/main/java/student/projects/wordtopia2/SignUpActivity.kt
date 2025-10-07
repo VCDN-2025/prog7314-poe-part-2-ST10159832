@@ -16,12 +16,13 @@ import com.google.firebase.auth.GoogleAuthProvider
 import student.projects.wordtopia2.databinding.ActivitySignupBinding
 import student.projects.wordtopia2.utils.ThemeManager
 
+//https://www.youtube.com/watch?v=H_maapn4Q3Q&t=722s
 class SignUpActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupBinding
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
 
-    // Google Sign-In launcher
+
     private val googleSignInLauncher = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
@@ -42,17 +43,17 @@ class SignUpActivity : AppCompatActivity() {
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Initialize Firebase Auth
+
         auth = FirebaseAuth.getInstance()
 
-        // Configure Google Sign-In
+
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        // Handle Email/Password Sign-Up
+
         binding.btnSignUp.setOnClickListener {
             val email = binding.edtSignupEmail.text.toString().trim()
             val password = binding.edtSignupPassword.text.toString().trim()
@@ -79,13 +80,13 @@ class SignUpActivity : AppCompatActivity() {
                 }
         }
 
-        // Handle Google Sign-Up
+
         binding.btnGoogleSignUp.setOnClickListener {
             val signInIntent = googleSignInClient.signInIntent
             googleSignInLauncher.launch(signInIntent)
         }
 
-        // Go to Login Screen
+
         binding.txtGoToLogin.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
             finish()

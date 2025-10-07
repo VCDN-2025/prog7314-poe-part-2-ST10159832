@@ -15,17 +15,17 @@ class SplashActivity : BaseActivity() {
         setContentView(R.layout.activity_splash)
 
 
-        // Find the buttons
+
         val loginBtn: Button = findViewById(R.id.btnLoginSplash)
         val signupBtn: Button = findViewById(R.id.btnSignUpSplash)
 
-        // Navigate to LoginActivity
+
         loginBtn.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 
-        // Navigate to SignUpActivity
+
         signupBtn.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)

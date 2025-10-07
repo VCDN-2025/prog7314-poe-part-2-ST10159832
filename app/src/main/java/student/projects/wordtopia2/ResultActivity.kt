@@ -15,19 +15,19 @@ class ResultActivity : BaseActivity() {
         binding = ActivityResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // ✅ Get data from GameActivity
+
         val won = intent.getBooleanExtra("won", false)
         val score = intent.getIntExtra("score", 0)
         val word = intent.getStringExtra("word") ?: ""
 
-        // ✅ Show image based on result
+
         if (won) {
             binding.gameoverImage.setImageResource(R.drawable.gameover_image) // You can replace with your own drawable
         } else {
             binding.gameoverImage.setImageResource(R.drawable.gameover_image)
         }
 
-        // ✅ Show word and score dynamically
+
         val resultText = if (won) {
             "YOU WON! WORD: $word    SCORE: $score POINTS"
         } else {
@@ -36,13 +36,13 @@ class ResultActivity : BaseActivity() {
 
         binding.txtWordScore.text = resultText
 
-        // ✅ Play again button
+
         binding.btnPlayAgain.setOnClickListener {
             startActivity(Intent(this, GameActivity::class.java))
             finish()
         }
 
-        // ✅ Home button
+
         binding.btnHome.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
             finish()
