@@ -14,6 +14,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import student.projects.wordtopia2.databinding.ActivitySignupBinding
+import student.projects.wordtopia2.utils.ThemeManager
 
 class SignUpActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupBinding
@@ -37,6 +38,7 @@ class SignUpActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        ThemeManager.applyTheme(this)
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

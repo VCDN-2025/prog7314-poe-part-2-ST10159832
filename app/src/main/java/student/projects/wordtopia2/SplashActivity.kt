@@ -6,10 +6,12 @@ import android.os.Handler
 import android.os.Looper
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import student.projects.wordtopia2.utils.ThemeManager
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        ThemeManager.applyTheme(this)
         setContentView(R.layout.activity_splash)
 
 

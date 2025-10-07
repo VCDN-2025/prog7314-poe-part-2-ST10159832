@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#FFFFFF"
+    android:background="@color/background"
     android:padding="24dp">
 
     <ImageView
@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:text="WORD: WALL    SCORE: 67 POINTS"
         android:textSize="16sp"
+        android:textColor="@color/textColor"
         android:layout_marginBottom="30dp" />
 
     <Button
@@ -31,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:text="PLAY AGAIN"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         android:background="@drawable/rounded_button" />
 
@@ -40,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:text="HOME"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         android:layout_marginTop="10dp"
         android:background="@drawable/rounded_button" />

@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "student.projects.wordtopia2"
-        minSdk = 36
+        minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -41,6 +41,9 @@ android {
 
 dependencies {
 
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation("com.google.code.gson:gson:2.10.1")
     implementation("com.google.android.gms:play-services-auth:21.2.0")
     implementation(platform("com.google.firebase:firebase-bom:33.3.0"))
     implementation(libs.androidx.core.ktx)

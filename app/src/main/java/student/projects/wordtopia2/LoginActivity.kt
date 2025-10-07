@@ -13,6 +13,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import student.projects.wordtopia2.databinding.ActivityLoginBinding
+import student.projects.wordtopia2.utils.ThemeManager
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
@@ -36,6 +37,7 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        ThemeManager.applyTheme(this)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

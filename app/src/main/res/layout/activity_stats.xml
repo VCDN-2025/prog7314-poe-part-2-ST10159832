@@ -3,15 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFFFFF"
+    android:background="@color/background"
     android:gravity="center_horizontal"
     android:padding="20dp">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="PLAYER STATS"
         android:textSize="26sp"
         android:textStyle="bold"
         android:fontFamily="sans-serif-black"
+        android:textColor="@color/textColor"
         android:layout_marginBottom="20dp" />
 
     <TextView
@@ -21,8 +24,8 @@
         android:text="Games Played: 15"
         android:textSize="18sp"
         android:padding="12dp"
-        android:background="#FF4081"
-        android:textColor="#FFFFFF"
+        android:background="#E91E63"
+        android:textColor="@color/textColor"
         android:layout_marginBottom="10dp" />
 
     <TextView
@@ -32,8 +35,8 @@
         android:text="Wins: 5"
         android:textSize="18sp"
         android:padding="12dp"
-        android:background="#FF4081"
-        android:textColor="#FFFFFF"
+        android:background="#E91E63"
+        android:textColor="@color/textColor"
         android:layout_marginBottom="10dp" />
 
     <TextView
@@ -43,8 +46,8 @@
         android:text="Losses: 10"
         android:textSize="18sp"
         android:padding="12dp"
-        android:background="#FF4081"
-        android:textColor="#FFFFFF"
+        android:background="#E91E63"
+        android:textColor="@color/textColor"
         android:layout_marginBottom="20dp" />
 
     <Button
@@ -52,7 +55,8 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:text="RESET STATS"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         android:background="@drawable/rounded_button" />
 </LinearLayout>
+
