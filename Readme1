@@ -1,0 +1,176 @@
+Wordtopia – The Ultimate Hangman Experience
+
+Wordtopia is a modern Android-based word-guessing game that blends fun and learning (Faster Capital, 2025). Designed with smooth gameplay, intuitive controls, and engaging visuals, it helps users improve spelling and vocabulary while playing (Faster Capital, 2025).
+Purpose of the App 
+The purpose of the Wordtopia Hangman App is to provide users with an engaging, educational, and accessible word-guessing experience that combines entertainment with cognitive development (Faster Capital, 2025). 
+The app modernizes the traditional Hangman game by incorporating interactive features, appealing visuals, and enhanced functionality suited for mobile users (Faster Capital, 2025). It aims to create a balance between fun gameplay and skill-building through vocabulary improvement, problem-solving, and memory retention (Faster Capital, 2025).
+At its core, Wordtopia is designed to help players enhance their language skills while enjoying a smooth and visually appealing gaming experience (Faster Capital, 2025). The app caters to a wide audience, from casual gamers seeking entertainment to students and language learners looking for a tool that reinforces spelling and vocabulary (Faster Capital, 2025).
+
+  Key Purposes of the App Include:
+
+•	Educational Development:
+The app promotes learning by encouraging players to think critically about word patterns, spelling, and meaning (Faster Capital, 2025). This makes it particularly useful for younger users or second-language learners in South Africa (Faster Capital, 2025).
+•	Entertainment and Engagement:
+Wordtopia integrates animations, scoring systems, and visual storytelling to make gameplay exciting and dynamic (Faster Capital, 2025). Players are motivated to keep improving their performance through game streaks, achievements, and leaderboards (Faster Capital, 2025).
+•	Accessibility and Ease of Use:
+The user interface is intuitive and visually consistent with large, clear buttons for all navigation options (Faster Capital, 2025). This ensures players of all ages and skill levels can easily interact with the app without confusion (Faster Capital, 2025).
+•	Security and Personalization:
+Features like Single Sign-On (SSO) and Biometric Authentication enhance security and convenience (Faster Capital, 2025). Players can securely log in, save progress, and view personalized statistics such as total games played, wins, and average scores (Faster Capital, 2025).
+
+•	Gamification for Motivation:
+
+Players are rewarded for accuracy, speed, and consistency with points and badges, fostering motivation and a sense of accomplishment (Faster Capital, 2025). This turns a simple word game into an enjoyable challenge that encourages continuous improvement (Faster Capital, 2025).
+Design Considerations
+The Wordtopia Hangman App was developed with careful planning to ensure that it is visually appealing, easy to use, and accessible to a diverse range of users (Faster Capital, 2025). 
+Every design decision focused on improving usability, interactivity, and engagement, while maintaining an educational and enjoyable atmosphere (Faster Capital, 2025). The considerations below outline the main principles that shaped the app’s layout, interface, and overall user experience (UX) (Faster Capital, 2025).
+
+1. User-Cantered Screen Layout
+Wordtopia is made up of five main screens — Home, Gameplay, Game Over, Guide, and Stats, each serving a unique purpose within the app (Faster Capital, 2025).
+•	The Home Screen acts as the main navigation hub, allowing users to quickly access the game, tutorial, or statistics sections (Faster Capital, 2025).
+•	The Gameplay Screen focuses on clarity by displaying the hangman structure, letter inputs, and hidden word area in a clean, easy-to-follow format (Faster Capital, 2025).
+•	The Game Over Screen summarizes results and motivates players to try again through clear visual cues and replay options (Faster Capital, 2025).
+•	The Guide Screen provides a straightforward explanation of the rules using text and visual examples, ensuring beginners can grasp gameplay quickly (Faster Capital, 2025).
+•	The Stats Screen organizes player progress, such as total games, wins, and average scores, in a visually clear and readable format (Faster Capital, 2025). Each screen is intentionally structured to simplify navigation and minimize confusion, ensuring a smooth experience for all users (Faster Capital, 2025).
+
+2. Interactive and Accessible Interface
+The app is designed for Android devices, all interactions are optimized for touch input (Faster Capital, 2025).
+•	Buttons are large and rounded for easier tapping on mobile screens (Faster Capital, 2025).
+•	Clean and legible typography enhances readability on devices of different sizes (Faster Capital, 2025).
+•	Adequate spacing between elements prevents accidental selections and improves overall usability (Faster Capital, 2025).
+•	Consistent colour patterns and icons make the interface intuitive, helping players quickly identify functions (Faster Capital, 2025). This design approach ensures accessibility and comfort for a wide audience, including casual players and those with limited mobile gaming experience (Faster Capital, 2025).
+•	The size of the font can be changes in the settings, if the user wants to make the font larger or smaller depending on their preference (Faster Capital, 2025). This is a core feature of the hangman app (Faster Capital, 2025).
+
+3. Intuitive Navigation and Smooth Transitions
+Navigation between screens is designed to be simple and seamless, helping users move through the app effortlessly (Faster Capital, 2025).
+•	Transitions include light animations that maintain user attention and provide visual feedback (Faster Capital, 2025).
+•	Logical navigation paths enable users to return to previous screens without confusion (Faster Capital, 2025).
+•	Subtle loading animations enhance the sense of continuity and reduce perceived waiting time (Faster Capital, 2025).
+•	The navigation structure is intentionally kept flat, requiring minimal taps to reach the app’s main features (Faster Capital, 2025). This ensures players can focus on the game itself rather than navigating through unnecessary menus (Faster Capital, 2025).
+
+4. Multilingual Accessibility
+Wordtopia supports English, isiZulu, and Afrikaans to accommodate South Africa’s linguistic diversity and promote inclusivity (Faster Capital, 2025).
+•	All interface elements, including buttons, labels, and menus, are translated into each supported language (Faster Capital, 2025).
+•	Word databases are localized so that players can experience word puzzles relevant to their chosen language (Faster Capital, 2025).
+•	The Settings screen includes a simple toggle, allowing users to switch languages at any point (Faster Capital, 2025). This feature ensures that players can engage with the game in their preferred language while fostering language development and inclusivity (Faster Capital, 2025).
+•	The language can be changed in the settings (Faster Capital, 2025.
+
+
+5. Visual Consistency and Thematic Appeal
+Wordtopia’s visual design reflects a playful, educational, and light-hearted tone suitable for all age groups (Faster Capital, 2025).
+•	The colour palette is bright and energetic, creating a positive and fun learning environment (Faster Capital, 2025).
+•	Cartoon-style visuals, including the stick figure and ghost characters, add personality and humour to the experience (Faster Capital, 2025).
+•	Consistent use of shapes, shadows, and rounded edges gives the interface a cohesive and modern look (Faster Capital, 2025).
+•	Simple backgrounds help maintain focus on gameplay elements without visual distractions (Faster Capital, 2025). The unified design approach enhances the app’s identity and makes it visually engaging for users across different age groups (Faster Capital, 2025).
+•	Dark mode and light mode can be changes in the settings of the app as this is a feature (Faster Capital, 2025).
+
+Utilisation of GitHub
+GitHub plays a vital role in the development of the Wordtopia Hangman App, functioning as the main platform for version control, teamwork, and project submission (Faster Capital, 2025). 
+It enables the development team to collaborate efficiently, track progress, and maintain an organized workflow throughout the app’s creation and testing phases (Faster Capital, 2025).
+1. Version Control and Code Tracking
+GitHub allows the team to manage and monitor every change made to the app’s source code (Faster Capital, 2025). Each developer works on a dedicated branch to develop or refine a feature before merging it into the main branch (Faster Capital, 2025).
+•	This approach ensures that new updates do not interfere with stable versions of the project (Faster Capital, 2025).
+•	The version control system makes it possible to roll back to earlier versions if errors occur (Faster Capital, 2025).
+•	Parallel development is supported, allowing different members to work on components such as gameplay logic, user authentication, or database integration simultaneously (Faster Capital, 2025).
+2. Team Collaboration and Coordination
+As a student development team, GitHub serves as a shared workspace where members can upload, review, and manage files collectively (Faster Capital, 2025).
+•	The Issues and Pull Requests features are used to track tasks, fix bugs, and review code collaboratively before final approval (Faster Capital, 2025).
+•	The Projects board helps manage ongoing activities and assign tasks, keeping development structured and efficient (Faster Capital, 2025).
+•	This method encourages clear communication and accountability, ensuring that all members remain aligned with project goals and deadlines (Faster Capital, 2025).
+3. Documentation and Repository Management
+The README file stored on the GitHub repository includes full documentation for the project, such as installation guides, build instructions, and system requirements (Faster Capital, 2025).
+•	This helps both the lecturer and external developers easily set up and test the application (Faster Capital, 2025).
+•	Additional markdown files may be used for feature documentation, progress notes, and version updates (Faster Capital, 2025).
+•	GitHub’s built-in discussion and comment functions allow developers to communicate directly within the repository, improving collaboration during development (Faster Capital, 2025).
+4. Integration with Development Tools
+GitHub integrates seamlessly with Android Studio, enabling the team to push and pull code directly from the development environment (Faster Capital, 2025).
+•	All project updates are automatically synchronized to the shared repository (Faster Capital, 2025).
+•	Each commit message clearly describes the changes made, promoting organization and traceability (Faster Capital, 2025).
+•	This workflow ensures consistent versioning and reduces the chances of conflicts between local and remote codebases (Faster Capital, 2025).
+5. Project Assessment and Submission
+GitHub also acts as the submission and evaluation platform for the Wordtopia project (Faster Capital, 2025). The lecturer can review the repository to assess the source code, project documentation, and commit logs to evaluate contributions from each team member (Faster Capital, 2025).
+•	This approach provides transparency in collaboration and reflects real-world software development practices (Faster Capital, 2025).
+•	It demonstrates the team’s ability to manage a professional software project using industry-standard tools (Faster Capital, 2025).
+Utilisation of GitHub Actions
+During the development of the Wordtopia Hangman App, GitHub Actions is implemented to automate the testing process and ensure that all new code functions as expected before being merged into the main repository (Faster Capital, 2025). This automation helps maintain code stability, reduces manual workload, and improves overall project quality (Faster Capital, 2025).
+1. Purpose of Implementing GitHub Actions
+The main reason for using GitHub Actions is to conduct automated testing whenever developers push new code or submit pull requests (Faster Capital, 2025). This eliminates the need to manually test every update and ensures that errors or failed builds are detected early (Faster Capital, 2025).
+•	The system automatically checks whether the app compiles correctly and runs all relevant tests (Faster Capital, 2025).
+•	It prevents unstable or faulty code from being integrated into the main branch (Faster Capital, 2025).
+2. How GitHub Actions Works in Wordtopia
+•	A workflow configuration file (written in YAML) is stored within the. github/workflows directory of the project (Faster Capital, 2025).
+•	Each time new code is uploaded, or a change is made, this workflow is automatically triggered (Faster Capital, 2025).
+•	GitHub sets up a virtual Android environment that builds the project and executes the testing commands using Gradle (Faster Capital, 2025).
+•	Common automated checks include:
+o	Ensuring the project compiles successfully (Faster Capital, 2025).
+o	Running unit tests on core features such as login, gameplay logic, and database communication (Faster Capital, 2025).
+o	Producing a test report to indicate whether the build passed or failed (Faster Capital, 2025).
+
+3. Advantages of Using GitHub Actions
+•	Faster Bug Detection: Coding errors are identified immediately after commits, reducing time spent debugging later (Faster Capital, 2025).
+•	Stable and Reliable Code: Regular testing ensures that existing functionality continues to work after updates (Faster Capital, 2025).
+•	Efficiency: The automation process saves time, allowing developers to focus on feature development rather than repetitive testing (Faster Capital, 2025).
+•	Team Consistency: Every team member benefits from automatic, standardized testing, keeping the shared repository stable and synchronized (Faster Capital, 2025).
+•	Clear Visibility: The test results and build logs are accessible within GitHub, allowing both developers and the lecturer to view outcomes transparently (Faster Capital, 2025).
+4. Example of the Automated Workflow
+Whenever a developer pushes an update to the repository:
+1.	GitHub Actions retrieves the latest version of the project (Faster Capital, 2025).
+2.	The environment is configured with the required Java Development Kit (JDK) (Faster Capital, 2025).
+3.	The app is automatically compiled using Gradle (Faster Capital, 2025).
+4.	Unit tests are executed to verify that all features work correctly (Faster Capital, 2025).
+5.	A summary report is generated, marking the build as successful if all tests pass or showing detailed errors if any fail (Faster Capital, 2025).
+
+Images 
+Images for the Hangman application are in a separate folder on Github.
+
+5. System Requirements
+Example:
+•	Android Studio Arctic Fox or newer.
+•	Android SDK version 34+.
+•	JDK 17 or higher.
+•	Internet connection (for API sync and login).
+•	Minimum Android version: Android 10 (API Level 29).
+
+6. Installation and Setup Instructions
+How to open, build, and run the app using GitHub.
+ Steps:
+1.	Clone the repository from GitHub using:
+2.	git clone https://github.com/username/wordtopia-hangman.git 
+3.	Open the project in Android Studio.
+4.	Allow Gradle to sync and install dependencies.
+5.	Run the app on an emulator or connected Android device.
+6.	Login using a Google account to access gameplay.
+9. Testing Procedures
+•	Manual Testing: Gameplay, login, and settings tested on multiple devices.
+•	Automated Testing: Via GitHub Actions for builds and unit tests.
+10. Project Plan (Summary)
+•	Planning and Research – met by 27 September 2025.
+•	UI/UX Design – met by 02 October 2025.
+•	Backend Setup – met by 07 October 2025.
+•	Core Features (SSO, Settings, API Integration) – met by 06 October 2025.
+•	Testing and Bug Fixing – met by 07 October 2025.
+•	Submission – submitted on 07 October 2025.
+
+
+
+
+
+11. Future Enhancements
+
+Example:
+•	Biometric Authentication (Fingerprint and Face ID).
+•	Real-Time Notifications.
+•	Expanded Word Libraries.
+•	Leaderboards and Multiplayer Modes.
+•	Enhanced Animations and Sounds.
+
+Credits / Acknowledgements
+The following tools, technologies, and resources were used during the development of the Wordtopia Hangman App:
+•	Firebase Authentication (Google Developers, 2025) — used for secure user login and Single Sign-On (SSO).
+•	Android BiometricPrompt API (Android Developers, 2024) — implemented for future biometric authentication functionality.
+•	Docker (Docker Inc., 2025) — utilized for containerizing backend services during API development and testing.
+•	Google Cloud Run (Google Cloud, 2025) — used to host and deploy the REST API for scalability and performance.
+•	Visual Studio Community (Microsoft, 2025) — employed as an IDE for backend API development and integration testing.
+
+
+References
+Faster Capital., 2025. The Benefits Of Playing Hangingman [Online]. Available at: < https://fastercapital.com/topics/the-benefits-of-playing-hangingman.html/1 >[Accessed on 02 October 2025].
