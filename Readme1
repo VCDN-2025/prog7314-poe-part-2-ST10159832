@@ -120,25 +120,7 @@ Whenever a developer pushes an update to the repository:
 5.	A summary report is generated, marking the build as successful if all tests pass or showing detailed errors if any fail (Faster Capital, 2025).
 
 Images 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Images for the Hangman application are in a separate folder on Github.
 
 5. System Requirements
 Example:
